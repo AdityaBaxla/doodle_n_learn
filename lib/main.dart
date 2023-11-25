@@ -1,3 +1,5 @@
+import 'package:doodle_n_learn/pages/home_page.dart';
+import 'package:doodle_n_learn/pages/intro_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,9 +11,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(),
+      home: IntroPage(),
+      routes: {
+        // '/homepage': (context) => const HomePage(),
+        // '/intropage': (context) => const IntroPage(),
+      },
     );
   }
 }
