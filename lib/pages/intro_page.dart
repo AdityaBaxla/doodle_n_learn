@@ -53,7 +53,7 @@ class IntroPage extends StatelessWidget {
                     color: Colors.grey[900],
                     borderRadius: BorderRadius.circular(12),
                   ),
-                  padding: EdgeInsets.all(25),
+                  padding: const EdgeInsets.all(25),
                   child: const Center(
                     child: Text(
                       'Start Learning',
